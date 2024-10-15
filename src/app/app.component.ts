@@ -14,4 +14,8 @@ import { DUMMY_USERS } from './dummy-users';
 export class AppComponent {
   users = DUMMY_USERS;
   title = 'angular_complete_guide';
+
+  onSelectUser(id: string){
+    console.log('Selected  user with ' + id);
+  }
 }
